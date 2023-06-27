@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #150b3e;
+  height: 500px;
+  width: 400px;
+  border-radius: 15px;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  background-color: #c7d2fe;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #585076;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.user-name {
+  font-size: 25px;
+  font-weight: 400;
+  color: #c7d2fe;
+  font-family: Roboto;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 450;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.balance {
+  color: #c7d2fe;
+  font-size: 25px;
+  font-family: Roboto;
+}
+.in-rupees {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 450;
+  margin-right: 30px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.withdraw {
+  color: #c7d2fe;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: Roboto;
+  margin-left: 20px;
+}
+.choose-amount {
+  color: #585076;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.denomination-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 10px;
+}
